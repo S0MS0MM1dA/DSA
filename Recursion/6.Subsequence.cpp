@@ -6,7 +6,7 @@ using namespace std;
 
 // TC = O(N*2^n) (Recursion call 2^N )
 // SC = O(n) - Depth
-void print_subsequences(int ind, int arr[], int n, vector<int> v){
+void print_subsequences(int ind, int arr[], int n, vector<int> &v){
 
     if(ind >= n){
 
